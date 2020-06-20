@@ -35,7 +35,7 @@ function likeCallback(e) {
 }
 
 // STEP 3: In order for the call to the server and the update of the screen to
-// work, the elements we identify in STEP 1 need to be told to run that update
+// work, the elements we identify in STEP 1 needs to be told to run that update
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
 
@@ -54,10 +54,10 @@ for (let glyph of articleHearts) {
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
 
-function mimicServerCall() {
-  return new Promise(function(resolve, reject) {
-    setTimeout(function() {
-      resolve("Pretend remote server notified of action!");
-    }, 300);
-  });
-}
+// function mimicServerCall() {
+//   return new Promise(function(resolve, reject) {
+//     setTimeout(function() {
+//       resolve("Pretend remote server notified of action!");
+//     }, 300);
+//   });
+// }
