@@ -54,10 +54,10 @@ for (let glyph of articleHearts) {
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
 
-function mimicServerCall() {
-  return new Promise(function(resolve, reject) {
-    setTimeout(function() {
-      resolve("Pretend remote server notified of action!");
-    }, 300);
-  });
-}
+// function mimicServerCall() {
+//   return new Promise(function(resolve, reject) {
+//     setTimeout(function() {
+//       resolve("Pretend remote server notified of action!");
+//     }, 300);
+//   });
+// }
